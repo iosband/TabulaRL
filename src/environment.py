@@ -167,7 +167,7 @@ def make_riverSwim(epLen=20, nState=6):
             P_true[s, a] = np.zeros(nState)
 
     # Rewards
-    R_true[0, 0] = (5 / 1000, 0)
+    R_true[0, 0] = (5. / 1000, 0)
     R_true[nState - 1, 1] = (1, 0)
 
     # Transitions
